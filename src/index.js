@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Demo from './demo';
+import SimpleModal from './demo';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Demo />
+    <SimpleModal description="dnanexus sample description"/>
   </React.StrictMode>,
   document.getElementById('root')
 );
